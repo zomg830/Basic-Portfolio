@@ -4,7 +4,8 @@
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 14px 16px;
     width:100%;
-
+    height: 46px;
+    overflow: visible;
 }
 
 #name{
@@ -93,14 +94,13 @@ footer{
 }
 
 body{
-    max-width: 960px;
-    text-align: left;
     padding-bottom:60px;
+    max-width: 960px;
 }
 
 .container {
     position: relative;
-    width: 50%;
+    width: auto;
     text-align:right;
   }
   
