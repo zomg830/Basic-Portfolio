@@ -2,20 +2,82 @@
     color: #ffffff;
     background-color: #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 10px;
-    float: center;
-    text-align:center;
+    padding: 14px 16px;
+    
 }
 
-.footer{
+.header a{
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    background-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 14px 16px;
+}
+
+.header a:hover{
+    background-color: #ddd;
+    color: black;
+    background-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 14px 16px;
+}
+
+footer{
     background-color: #666666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 14px 16px;
+    float:center;
+    color: white;
+    text-align: center;
 }
 
 .main_content{
     background-color: #ffffff;
     border-color: #dddddd;
+    color: black;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 10px;
     padding: 10px;
-    float:left;
+    float:center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 14px 16px;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: #ffffff;
+    background-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 16px;
+    
+    
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: black;
+    background-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 10px;
+    overflow: hidden;
+}
+
+body{
+    max-width: 960px;
+    text-align: left;
 }
