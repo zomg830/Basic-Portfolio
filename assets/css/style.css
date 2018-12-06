@@ -81,7 +81,7 @@ footer{
     position: relative;
     display: inline-block;
     color: #4aaaa5;
-    float:right;
+    float:left;
     background-color: #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 14px 16px;
