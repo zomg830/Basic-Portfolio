@@ -152,3 +152,10 @@ body{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
+
+#headshot{
+    max-width:240px;
+    float:left;
+    margin-right:10px;
+    margin-top:18px;
+}
