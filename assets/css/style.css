@@ -162,8 +162,13 @@ body{
 #github{
     display: inline-block;
     float:right;
-    width:60px;
+    max-width:160px;
     top:58%;
     left:88%;
     position: absolute;
+}
+
+#github i{
+    font-size:2vw;
+    letter-spacing: 0.6em;
 }
