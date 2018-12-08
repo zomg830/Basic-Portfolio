@@ -168,3 +168,11 @@ body{
     font-size:3vw;
     letter-spacing: 1.0em;
 }
+
+#github a:link{
+    color:lightblue;
+}
+
+#github a:visited{
+    color:lightblue;
+}
