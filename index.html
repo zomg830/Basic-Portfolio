@@ -3,66 +3,87 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact | Matt Faubel</title>
+    <title>About Me | Matt Faubel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/hover.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <script src="main.js"></script>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
 <header>
-    <div class="header">
-        <a id="name" class="hvr-radial-out">Matt Faubel</a>
-        <a class="hvr-overline-from-right" href="index.html";">About Me</a>
-        <a class="hvr-overline-from-right" href="contact.html">Contact</a>
-        <a class="hvr-overline-from-right" href="portfolio.html">Portfolio</a></h1>
-            <div class="dropdown">
-                <span>Additional Links</span>
-                    <div class="dropdown-content">
-                        <p><a href="https://www.seekingalpha.com" target="_blank">Seeking Alpha</a></p>
-                        <p><a href="https://www.oilprice.com" target="_blank">OilPrice.com</a></p>
-                        <p><a href="https://www.coinbase.com" target="_blank">Coinbase</a></p>
-                        <p><a href="https://www.w3schools.com/" target="_blank">w3schools.com</a></p>
-                        <p><a href="https://www.reddit.com/r/financialindependence" target="_blank">Reddit FI/RE</a></p>
-                    </div>
-            </div>    
-    </div>
+        <ul id="dropdown1" class="dropdown-content">
+                <li><a href="https://www.seekingalpha.com" target="_blank">Seeking Alpha</a></li>
+                <li><a href="https://www.oilprice.com" target="_blank">OilPrice.com</a></li>
+                <li><a href="https://www.coinbase.com" target="_blank">Coinbase</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">w3schools.com</a></li>
+                <li><a href="https://www.reddit.com/r/financialindependence" target="_blank">Reddit FI/RE</a></li>
+        </ul>
+        <nav>
+                <div class="nav-wrapper">
+                  <a class="brand-logo truncate center">Matt Faubel</a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+                  <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Additional Links<i class="fas fa-angle-down"></i></a></li>
+                  </ul>
+                </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li class="divider"></li>
+            <li><a href="https://www.seekingalpha.com" target="_blank">Seeking Alpha</a></li>
+            <li><a href="https://www.oilprice.com" target="_blank">OilPrice.com</a></li>
+            <li><a href="https://www.coinbase.com" target="_blank">Coinbase</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank">w3schools.com</a></li>
+            <li><a href="https://www.reddit.com/r/financialindependence" target="_blank">Reddit FI/RE</a></li>
+        </ul>
 </header>
-    <div class="main_content">
-        <img id="headshot" src="assets/images/Profile.jpg">
 
-    <p>My name is Matt Faubel, I'm currently an amateur web designer based out of Austin, TX.
-       Throughout the next few weeks I will be updating this portfolio page and my GitHub repository with many
-       different types of coding projects. 
-       <br>
-       <br>
-       I've always believed that financial independence should be a goal for everyone. For the 
-       uninitiated Financially Independent (FI), means not having to work for money. Financial Independence
-       is closely related to the concept of Early Retirement/Retiring Early (RE) - quitting your job/career
-       and pursuing other activities with your time. Under the 'Additional Links' tab I've added
-       my preferred sites to find financial news and stock prices.
-       <br>
-       <br>
-       Throughout the next six months I will be taking a full-stack flex (i.e., part-time) coding
-       course through The Coding Boot Camp at UT Austin. I hope to learn more about front-end technologies (HTML
-       and CSS, of course) as well as the back-end technologies that help make the Internet function
-       as we know it. 
+<div class="row">
+    <img id="headshot" style="float: left;" class="circle responsive-img" src="assets/images/Profile.jpg">
+    <p class="flow-text" id="intro">My name is Matt Faubel, I'm currently an amateur web designer based out of Austin, TX.
+    Throughout the next few weeks I will be updating this portfolio page and my GitHub repository with many
+    different types of coding projects. 
+    <br>
+    <br>
+    I've always believed that financial independence should be a goal for everyone. For the 
+    uninitiated Financially Independent (FI), means not having to work for money. Financial Independence
+    is closely related to the concept of Early Retirement/Retiring Early (RE) - quitting your job/career
+    and pursuing other activities with your time. Under the 'Additional Links' tab I've added
+    my preferred sites to find financial news and stock prices.
+    <br>
+    <br>
+    Throughout the next six months I will be taking a full-stack flex (i.e., part-time) coding
+    course through The Coding Boot Camp at UT Austin. I hope to learn more about front-end technologies (HTML
+    and CSS, of course) as well as the back-end technologies that help make the Internet function
+    as we know it. 
     </p>
-
-    </div>
-    <footer>
-            <div>      
-                    <p>Posted by: Matt Faubel</p>
-                    <p>Contact information: <a href="mailto:matt.faubel@gmail.com" style="color: lightblue;">matt.faubel@gmail.com</a></p>
-                    <div id="github">
-                        <a href="https://www.github.com/zomg830" target="_blank"><i class="fab fa-github fa-lg"></i></a> 
-                        <a href="https://www.linkedin.com/in/matthew-faubel-1232a857" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
-                        <a href="https://www.facebook.com/matthew.faubel" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
+</div> 
+    <footer class="page-footer">
+            <div class="container center-align">
+                    <div class="row">
+                    <div class="col s12">
+                    <a href="https://www.github.com/zomg830" target="_blank"><i class="fab fa-github fa-lg hvr-pulse-grow"></i></a> 
+                    <a href="https://www.linkedin.com/in/matthew-faubel-1232a857" target="_blank"><i class="fab fa-linkedin fa-lg hvr-pulse-grow"></i></a>
                     </div>
-                    </div>  
-    </footer>    
+                    </div>
+            </div>
+            <div class="footer-copyright">
+                    <div class="container  center-align">
+                    © 2019 Matt Faubel
+                    </div>
+            </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>    
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

@@ -3,85 +3,160 @@
 <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contact | Matt Faubel</title>
+        <title>Portfolio | Matt Faubel</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/hover.css" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-        <script src="main.js"></script>
-    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">    
 </head>
 <body>
 <header>
-        <div class="header">
-                <a id="name" class="hvr-radial-out">Matt Faubel</a>
-                <a class="hvr-overline-from-right" href="index.html";">About Me</a>
-                <a class="hvr-overline-from-right" href="contact.html">Contact</a>
-                <a class="hvr-overline-from-right" href="portfolio.html">Portfolio</a></h1>
-                <div class="dropdown">
-                    <span>Additional Links</span>
-                    <div class="dropdown-content">
-                        <p><a href="https://www.seekingalpha.com" target="_blank">Seeking Alpha</a></p>
-                        <p><a href="https://www.oilprice.com" target="_blank">OilPrice.com</a></p>
-                        <p><a href="https://www.coinbase.com" target="_blank">Coinbase</a></p>
-                        <p><a href="https://www.w3schools.com/" target="_blank">w3schools.com</a></p>
-                        <p><a href="https://www.reddit.com/r/financialindependence" target="_blank">Reddit FI/RE</a></p>
-                    </div>
+        <ul id="dropdown1" class="dropdown-content">
+                <li><a href="https://www.seekingalpha.com" target="_blank">Seeking Alpha</a></li>
+                <li><a href="https://www.oilprice.com" target="_blank">OilPrice.com</a></li>
+                <li><a href="https://www.coinbase.com" target="_blank">Coinbase</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">w3schools.com</a></li>
+                <li><a href="https://www.reddit.com/r/financialindependence" target="_blank">Reddit FI/RE</a></li>
+        </ul>
+        <nav>
+                <div class="nav-wrapper">
+                        <a class="brand-logo truncate center">Matt Faubel</a>
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+                        <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">About Me</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Additional Links<i class="fas fa-angle-down"></i></a></li>
+                        </ul>
                 </div>
-            
-        </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li class="divider"></li>
+                <li><a href="https://www.seekingalpha.com" target="_blank">Seeking Alpha</a></li>
+                <li><a href="https://www.oilprice.com" target="_blank">OilPrice.com</a></li>
+                <li><a href="https://www.coinbase.com" target="_blank">Coinbase</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">w3schools.com</a></li>
+                <li><a href="https://www.reddit.com/r/financialindependence" target="_blank">Reddit FI/RE</a></li>
+        </ul>
 </header>
-<div class="main_content">
-                 <div class="container">
-                        <a href="https://www.yahoo.com" target="_blank"><img src="assets/images/Cool-Cat.jpg" alt="Cool" class="image"></a>
-                        <div class="overlay">
-                          <div class="text">Wow! Very cool!</div>
-                        </div>
-                      </div>
-                      <br>
 
-                <div class="container">
-                        <a href="https://www.google.com" target="_blank"><img src="assets/images/Harold.jpg" alt="Avatar" class="image"></a>
-                            <div class="overlay">
-                              <div class="text">Say hello, Harold!</div>
-                        </div>
+<div class="container center-align">
+        <div class="row">
+                <div class="col s12">
+                  <div class="card blue-grey darken-1 hoverable">
+                    <div class="card-content white-text">
+                      <span class="card-title">Basic Portfolio</span>
+                      <p>Link to my first deployed portfolio. Contains basic HTML and CSS formatting, including some external style sheets such as FontAwesome for social media icons.</p>
                     </div>
-                    <br>
-
-                <div class="container">
-                        <a href="https://www.bing.com" target="_blank"><img src="assets/images/Synth.jpg" alt="Avatar" class="image"></a>
-                            <div class="overlay">
-                              <div class="text">*Processing greeting request*</div>
+                    <div class="card-action">
+                        <a href="https://zomg830.github.io/Basic-Portfolio/index.html" target="_blank" class="btn">View Project</a>
+                    </div>
+                  </div>
+                </div>
+        </div>
+        <div class="row">
+                        <div class="col s12">
+                          <div class="card blue-grey darken-1 hoverable">
+                            <div class="card-content white-text">
+                              <span class="card-title">Responsive Portfolio</span>
+                              <p>Link to my "Responsive Portfolio". Makes use of media queries to allow the website to be responsive to different device and screen widths.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://zomg830.github.io/Responsive-Portfolio/index.html" target="_blank" style class="btn">View Project</a>                                
+                            </div>
+                          </div>
                         </div>
-                </div>
-                <br>
-
-                <div class="container">
-                        <a href="https://www.duckduckgo.com" target="_blank"><img src="assets/images/Winning.jpg" alt="Avatar" class="image"></a>
-                        <div class="overlay">
-                          <div class="text">Winning!</div>
-                    </div>
-                </div>
-                <br>
-
-                <div class="container">
-                        <a href="https://www.farmersonly.com" target="_blank"><img src="assets/images/Muffins.jpg" alt="Avatar" class="image"></a>
-                        <div class="overlay">
-                          <div class="text">We love muffins, don't we?</div>
-                    </div>
-                </div>
+        </div>
+        <div class="row">
+                        <div class="col s12">
+                                <div class="card blue-grey darken-1 hoverable">
+                                <div class="card-content white-text">
+                                <span class="card-title">Hangman Game</span>
+                                <p>Link to my "Word-Guess-Game". Very similar to the classic Hangman game and themed to the book and television series, "The Expanse".</p>
+                                </div>
+                                <div class="card-action">
+                                <a href="https://zomg830.github.io/Word-Guess-Game/" target="_blank" style class="btn">View Project</a>
+                                </div>
+                                </div>
+                        </div>
+        </div>
+        <div class="row">
+                        <div class="col s12">
+                                <div class="card blue-grey darken-1 hoverable">
+                                <div class="card-content white-text">
+                                <span class="card-title">Star Wars RPG</span>
+                                <p>Link to my Star Wars RPG. Game mechanics programmed primarily using jQuery and JavaScript.</p>
+                                </div>
+                                <div class="card-action">
+                                <a href="https://zomg830.github.io/unit-4-game/" target="_blank" class="btn">View Project</a>
+                                </div>
+                                </div>
+                        </div>
+        </div>
+        <div class="row center-align">
+                        <div class="col s12">
+                                <div class="card blue-grey darken-1">
+                                <div class="card-content white-text">
+                                <span class="card-title">Mythology Trivia Game</span>
+                                <p>Link to my mythology-themed trivia game. Programmed with jQuery and JavaScript, with an emphasis on time intervals.</p>
+                                </div>
+                                <div class="card-action">
+                                <a href="https://zomg830.github.io/TriviaGame/" target="_blank" style class="btn">View Project</a>
+                                </div>
+                                </div>
+                        </div>
+        </div>
+        <div class="row center-align">
+                        <div class="col s12">
+                                <div class="card blue-grey darken-1 hoverable">
+                                <div class="card-content white-text">
+                                <span class="card-title">Giphy App</span>
+                                <p>Link to my Giphy App. This is a simple program that utilizes AJAX API calls to populate a web page with data.</p>
+                                </div>
+                                <div class="card-action">
+                                <a href="https://zomg830.github.io/Giphy-App/" target="_blank" style class="btn">View Project</a>
+                                </div>
+                                </div>
+                        </div>
+        </div>
+        <div class="row center-align">
+                        <div class="col s12">
+                                <div class="card blue-grey darken-1 hoverable">
+                                <div class="card-content white-text">
+                                <span class="card-title">Train Schedule App</span>
+                                <p>Link to my Train Schedule App. Utilizes Firebase as a basic server-side storage platform for taking user input data and displaying it on the DOM.</p>
+                                </div>
+                                <div class="card-action">
+                                <a href="https://zomg830.github.io/train-schedule/" target="_blank" class="btn">View Project</a>                               
+                                </div>
+                                </div>
+                        </div>
+        </div>
 </div>
-                <footer>
-                        <div>      
-                                <p>Posted by: Matt Faubel</p>
-                                <p>Contact information: <a href="mailto:matt.faubel@gmail.com" style="color: lightblue;">matt.faubel@gmail.com</a></p>
-                                <div id="github">
-                                    <a href="https://www.github.com/zomg830" target="_blank"><i class="fab fa-github fa-lg"></i></a> 
-                                    <a href="https://www.linkedin.com/in/matthew-faubel-1232a857" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
-                                    <a href="https://www.facebook.com/matthew.faubel" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
-                                    </div>
-                                </div>  
-                </footer>    
-                
+
+<footer class="page-footer">
+        <div class="container center-align">
+                <div class="row">
+                <div class="col s12">
+                <a href="https://www.github.com/zomg830" target="_blank"><i class="fab fa-github fa-lg hvr-pulse-grow"></i></a> 
+                <a href="https://www.linkedin.com/in/matthew-faubel-1232a857" target="_blank"><i class="fab fa-linkedin fa-lg hvr-pulse-grow"></i></a>
+                </div>
+                </div>
+        </div>
+        <div class="footer-copyright">
+                <div class="container  center-align">
+                © 2019 Matt Faubel
+                </div>
+        </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>    
+<script src="assets/js/main.js"></script>            
 </body>
 </html>
