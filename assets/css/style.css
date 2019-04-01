@@ -12,9 +12,37 @@ i {
     margin:auto;
 }
 
-#headshot, #intro{
+#intro{
     margin-top:2vh;
     margin-bottom:2vh;
     font-size:1.2em;
     padding:1vh
+}
+
+#headshot{
+    margin-right: 2vh;
+}
+
+.nav-wrapper, #footer{
+    background-color: rgb(0,127,116);
+    color: rgb(0,127,116);
+}
+
+body{
+    display:flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main { 
+    flex: 1 0 auto;
+}
+
+.carousel .carousel-item {
+    width:350px !important;
+}
+
+#content, #intro{
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
